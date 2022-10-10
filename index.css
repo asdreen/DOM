@@ -1,0 +1,29 @@
+.box {
+ display: flex;
+}
+.jerliu {
+    margin: 10px;
+    text-align: center
+}
+
+.jerliu img {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    object-fit: cover;
+    cursor: pointer;
+}
+.jerliu p {
+   color: black;
+   font-weight: bold;
+}
+.jerliu p span {
+    color: red;
+}
+#address {
+    font-size: large;
+    font-weight: 500;
+}
+#name {
+    font-size: larger;
+}
