@@ -71,11 +71,18 @@
         const a  = document.querySelector("a")
         a.style.backgroundColor = "beige"  
 
-        const img  = document.querySelector("img")
-        img.classList.toggle("hidden")
-   
+        function colorProduct() {
+            const color = getRandomColor();
+            for (let Price of document.querySelectorAll("div > td:p")); {
+                Price.style.color = color;
+            }
+        }
+
+        function getRandomColor() {
+            const green = Math.round(Math.random() * 255);
+        }
     
-    
+       
 
   
       
